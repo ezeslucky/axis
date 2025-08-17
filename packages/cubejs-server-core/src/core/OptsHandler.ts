@@ -93,7 +93,7 @@ export class OptsHandler {
     //     'Cube.js `CreateOptions.dbType` Property Deprecation',
     //     {
     //       warning: (
-    //         // TODO (buntarb): add https://github.com/cube-js/cube.js/blob/master/DEPRECATION.md#dbType
+    //         // TODO (buntarb): add https://github.com/ezeslucky/axis.js/blob/master/DEPRECATION.md#dbType
     //         // link once it will be created.
     //         'CreateOptions.dbType property is now deprecated, please migrate.'
     //       ),
@@ -122,7 +122,7 @@ export class OptsHandler {
       //   'Cube.js CreateOptions.driverFactory Property Deprecation',
       //   {
       //     warning: (
-      //       // TODO (buntarb): add https://github.com/cube-js/cube.js/blob/master/DEPRECATION.md#driverFactory
+      //       // TODO (buntarb): add https://github.com/ezeslucky/axis.js/blob/master/DEPRECATION.md#driverFactory
       //       // link once it will be created.
       //       'CreateOptions.driverFactory should return DriverConfig object instead of driver instance, please migrate.'
       //     ),

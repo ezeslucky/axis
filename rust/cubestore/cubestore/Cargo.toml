@@ -7,7 +7,7 @@ license = "Apache-2.0"
 description = "Cube.js pre-aggregation storage layer"
 documentation = "https://cube.dev/docs"
 homepage = "https://cube.dev"
-repository = "https://github.com/cube-js/cube.js"
+repository = "https://github.com/ezeslucky/axis.js"
 
 [target.'cfg(not(target_os = "windows"))'.dependencies]
 ipc-channel = { version = "0.18.0" }

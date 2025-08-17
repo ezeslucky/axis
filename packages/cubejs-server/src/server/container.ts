@@ -272,14 +272,14 @@ export class ServerContainer {
       if (supported !== true) {
         throw new Error(
           `Native extension is required to load Python configuration. ${supported.reason}. Read more: ` +
-          'https://github.com/cube-js/cube/blob/master/packages/cubejs-backend-native/README.md#supported-architectures-and-platforms'
+          'https://github.com/ezeslucky/axis/blob/master/packages/cubejs-backend-native/README.md#supported-architectures-and-platforms'
         );
       }
 
       if (isFallbackBuild()) {
         throw new Error(
           'Unable to load Python configuration because you are using the fallback build of native extension. Read more: ' +
-          'https://github.com/cube-js/cube/blob/master/packages/cubejs-backend-native/README.md#supported-architectures-and-platforms'
+          'https://github.com/ezeslucky/axis/blob/master/packages/cubejs-backend-native/README.md#supported-architectures-and-platforms'
         );
       }
 

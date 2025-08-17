@@ -223,7 +223,7 @@ describe('pre-aggregations', () => {
     expect(preAggregationsDescription[1].preAggregationId).toEqual('Orders.simple2');
   });
 
-  // @link https://github.com/cube-js/cube/issues/6623
+  // @link https://github.com/ezeslucky/axis/issues/6623
   it('view and pre-aggregation granularity', async () => {
     const { compiler, cubeEvaluator, joinGraph } = prepareYamlCompiler(
       createSchemaYaml(createECommerceSchema())

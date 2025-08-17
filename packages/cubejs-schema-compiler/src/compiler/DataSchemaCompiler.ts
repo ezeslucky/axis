@@ -351,7 +351,7 @@ export class DataSchemaCompiler {
       if (NATIVE_IS_SUPPORTED !== true) {
         throw new Error(
           `Native extension is required to process jinja files. ${NATIVE_IS_SUPPORTED.reason}. Read more: ` +
-          'https://github.com/cube-js/cube/blob/master/packages/cubejs-backend-native/README.md#supported-architectures-and-platforms'
+          'https://github.com/ezeslucky/axis/blob/master/packages/cubejs-backend-native/README.md#supported-architectures-and-platforms'
         );
       }
 

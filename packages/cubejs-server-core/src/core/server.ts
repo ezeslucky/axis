@@ -813,7 +813,7 @@ export class CubejsServerCore {
           this.logger('auth_info_deprecation', {
             warning: (
               'authInfo was renamed to securityContext, please migrate: ' +
-              'https://github.com/cube-js/cube.js/blob/master/DEPRECATION.md#checkauthmiddleware'
+              'https://github.com/ezeslucky/axis.js/blob/master/DEPRECATION.md#checkauthmiddleware'
             )
           });
 

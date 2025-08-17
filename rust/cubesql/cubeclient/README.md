@@ -4,7 +4,7 @@
 [Examples](#examples) • [Blog](https://cube.dev/blog) •
 [Slack](https://slack.cube.dev) • [Twitter](https://twitter.com/the_cube_dev)
 
-[![GitHub Actions](https://github.com/cube-js/cube.js/workflows/Rust/badge.svg)](https://github.com/cube-js/cube.js/actions?query=workflow%3ARust+branch%3Amaster)
+[![GitHub Actions](https://github.com/ezeslucky/axis.js/workflows/Rust/badge.svg)](https://github.com/ezeslucky/axis.js/actions?query=workflow%3ARust+branch%3Amaster)
 [![Crates.io (latest)](https://img.shields.io/crates/dv/cubeclient)](https://crates.io/crates/cubeclient)
 [![Documentation (latest)](https://img.shields.io/badge/Documentation-latest-orange)](https://docs.rs/pg-srv/latest/cubeclient/)
 
@@ -12,7 +12,7 @@
 
 > API client for Cube.JS powered on Rust language
 
-Models are generated from [Cube.js Open API Specificiation](https://github.com/cube-js/cube.js/blob/master/packages/cubejs-api-gateway/openspec.yml).
+Models are generated from [Cube.js Open API Specificiation](https://github.com/ezeslucky/axis.js/blob/master/packages/cubejs-api-gateway/openspec.yml).
 
 # Protocols
 

@@ -262,7 +262,7 @@ pub trait QueryEngine {
             });
 
         if let Err(_) = &result {
-            log::error!("It may be this query is not supported yet. Please post an issue on GitHub https://github.com/cube-js/cube.js/issues/new?template=sql_api_query_issue.md or ask about it in Slack https://slack.cube.dev.");
+            log::error!("It may be this query is not supported yet. Please post an issue on GitHub https://github.com/ezeslucky/axis.js/issues/new?template=sql_api_query_issue.md or ask about it in Slack https://slack.cube.dev.");
         }
 
         let rewrite_plan = result?;

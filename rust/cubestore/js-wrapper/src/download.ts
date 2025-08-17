@@ -39,7 +39,7 @@ export async function downloadBinaryFromRelease() {
   const cubestorePath = getCubeStorePath();
   const currentTarget = getTarget();
 
-  const url = `https://github.com/cube-js/cube.js/releases/download/v${version}/cubestored-${currentTarget}.tar.gz`;
+  const url = `https://github.com/ezeslucky/axis.js/releases/download/v${version}/cubestored-${currentTarget}.tar.gz`;
 
   try {
     await downloadAndExtractFile(url, {
